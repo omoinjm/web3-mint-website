@@ -1,39 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .App {
-	text-align: center;
-	font-family: 'Press Start 2P', 'VT323';
-	color: #fff;
+  text-align: center;
+  font-family: "Press Start 2P", "VT323";
+  color: #fff;
 }
 
 body {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .overlay {
-	opacity: 0.85;
-	width: 100%;
-	height: 100%;
-	z-index: 10;
-	top: 0;
-	left: 0;
-	position: fixed;
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 
 .moving-background {
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWY5MWVhMWYzYTgzMjE0OWE2MDM1MDA4ZTM2ZmY3OTA5NTRkMTA0YiZjdD1n/eBR2BsjrmlBJVynWRT/giphy.gif');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 40% 40%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://media.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 40% 40%;
 }
