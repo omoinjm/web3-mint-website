@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "https://web3-mint-website.netlify.app/"
-    to = "https://web3-mint-website.vercel.app/"
+    from = "/*"
+    to = "/index.html"
     status = 200
